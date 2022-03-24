@@ -318,12 +318,14 @@ body{
     font-size: 17px;
   }
   /* Dashboard Section  */
+  .dashboard-container{
+    margin-bottom: 50px;
+  }
   .dashboard-container h3{
     text-align: center;
-    color: #42296B;
-    font-size: 22px;
+    color:#4274FB;
 }
- .container{
+ .dash-container{
     width: 1300px;
     height:90vh;
     /* border: 1px solid black; */
@@ -332,7 +334,7 @@ body{
     margin: auto;
 
 }
- .container .box-1{
+ .dash-container .box-11{
     width: 1300px;
     height: 10vh;
     /* border: 1px solid red; */
@@ -342,21 +344,21 @@ body{
     border-top-right-radius: 20px;
     box-shadow: 4px 4px 10px 2px #d6d4d4;
 } 
-.box-1 img{
+.box-11 img{
     width: 150px;
     height: 7vh;
     margin: 10px 40px;
 }
-.box-1 .logo{
+.box-11 .logo{
     margin-left: 780px; 
     border-radius: 50%;
     width: 60px;
 }
-.box-1 .text{
+.box-11 .text{
     padding: 10px;
     margin-left: -40px;
 }
-.box-1 .rectangle{
+.box-11 .rectangle{
     width: 60px;
     height: 60px;
     background: #ffff;
@@ -364,18 +366,18 @@ body{
     box-shadow: 4px 4px 10px 2px #d6d4d4;
     border-radius: 10px;
 }
-.box-1 .rectangle .fa{
+.box-11 .rectangle .fa{
     padding: 11px;
     color: #a09b9b;
 }
-.box-1 .circle{
+.box-11 .circle{
     width: 15px;
     height: 15px;
     background: red;
     border-radius: 50%;
     margin-left: -11px;
 }
-.container .box-2{
+.dash-container .box-22{
     height: 80vh;
     width: 250px;
     /* border: 1px solid crimson; */
@@ -383,44 +385,44 @@ body{
     border-bottom-right-radius: 20px;
     box-shadow: 4px 4px 10px 2px #d6d4d4;
 }
-.box-2 .text-box2{
+.box-22 .text-box2{
     display: flex;
     padding: 5px 0 0 0;
 }
 
 
-.box-2 .text-box2 img{
+.box-22 .text-box2 img{
     width: 40px;
     height: 40px;
     margin: 8px;
 }
-.box-2 .text-box2 h2{
+.box-22 .text-box2 h2{
     font-size: 20px;
     color: #4274FB;
 }
-.box-2 .text-box3{
+.box-22 .text-box3{
     display: flex;
     padding: 5px 0 0 0;
 }
-.box-2 .text-box3 img{
+.box-22 .text-box3 img{
     width: 40px;
     height: 40px;
     margin: 8px;
 }
-.box-2 .text-box3 h2{
+.box-22 .text-box3 h2{
     font-size: 20px;
     color: #a09b9b;
     opacity: 80%;
 }
-.box-2 .text-box2:hover{
+.box-22 .text-box2:hover{
     background: #DBE9FF;
     box-shadow: 4px 4px 10px 2px #d6d4d4;
 }
-.box-2 .text-box3:hover{
+.box-22 .text-box3:hover{
     background: #DBE9FF;
     box-shadow: 4px 4px 10px 2px #d6d4d4;
 }
-.container .box-3{
+.dash-container .box-33{
     width: 1042px;
     height: 78vh;
     /* border: 1px solid black; */
@@ -429,36 +431,36 @@ body{
     padding: 0 4px;
     display: flex;
 }
-.container .box-3 .box-3-1{
+.dash-container .box-33 .box-3-1{
     width: 650px;
     height: 78vh;
     /* border: 2px solid crimson; */
     box-shadow: 4px 4px 10px 2px #d6d4d4;
     border-radius: 10px;
 }
-.container .box-3 .box-3-1 .box-3-1-text{
+.dash-container .box-33 .box-3-1 .box-3-1-text{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
 }
-.container .box-3 .box-3-1 h3{
+.dash-container .box-33 .box-3-1 h3{
     color: #000000;
     
 }
-.container .box-3 .box-3-1 h3 span{
+.dash-container .box-33 .box-3-1 h3 span{
     color: #23F411;
 }
-.container .box-3 .box-3-1 .box-3-1-text p{
+.dash-container .box-33 .box-3-1 .box-3-1-text p{
     color: #a09b9b;
 }
-.container .box-3 .box-3-1 .box-3-1-text p span{
+.dash-container .box-33 .box-3-1 .box-3-1-text p span{
     color: #4274FB;
 }
-.container .box-3 .box-3-1 .box-3-1-text .fa{
+.dash-container .box-33 .box-3-1 .box-3-1-text .fa{
     color: #4274FB;
 }
-.container .box-3 .box-3-1 .underline{
+.dash-container .box-33 .box-3-1 .underline{
 width: 550px;
 height: 8px;
 background: #E2E2E2;
@@ -468,7 +470,7 @@ margin-left: 400px;
 left: 0;
 overflow: hidden;
 }
-.container .box-3 .box-3-1 .underline span{
+.dash-container .box-33 .box-3-1 .underline span{
 width: 370px;
 height: 8px;
 background: #23F411;
@@ -486,36 +488,36 @@ left: -360px;
 right: 75%;
 }
 }
-.container .box-3 .box-3-1 .date {
+.dash-container .box-33 .box-3-1 .date {
 padding:20px
 }
-.container .box-3 .box-3-1 .date h3 span{
+.dash-container .box-33 .box-3-1 .date h3 span{
 color: #a09b9b;
 }
-.container .box-3 .box-3-1 .date .day{
+.dash-container .box-33 .box-3-1 .date .day{
 /* border: 1px solid black; */
 padding: 1px 10px;
 }
-.container .box-3 .box-3-1 .date .day p{
+.dash-container .box-33 .box-3-1 .date .day p{
 color: #a09b9b;
 padding: 0 5px;
 }
-.container .box-3 .box-3-1 .date .day .circle{
+.dash-container .box-33 .box-3-1 .date .day .circle{
 width: 40px;
 height: 40px;
 background: #4274FB;
 border-radius: 50%;
 color: #ffff;
 }
-.container .box-3 .box-3-1 .date .day .circle p{
+.dash-container .box-33 .box-3-1 .date .day .circle p{
 padding: 10px;
 color: #ffff;
 }
-.container .box-3 .box-3-1 .date .days .day1{
+.dash-container .box-33 .box-3-1 .date .days .day1{
 /* padding: 10px; */
 color: #4274FB;
 }
-.container .box-3 .box-3-1 .date .days{
+.dash-container .box-33 .box-3-1 .date .days{
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -525,7 +527,7 @@ color: #a09b9b;
 opacity: 70%;
 box-shadow: 2px 2px 10px 2px #d6d4d4;
 }
-.container .box-3 .box-3-2{
+.dash-container .box-33 .box-3-2{
 margin: 0 10px;
 width: 630px;
 height: 130px;
@@ -533,39 +535,39 @@ height: 130px;
 margin-bottom: 5px;
 box-shadow: 2px 2px 10px 2px #d6d4d4;
 }
-.container .box-3 .box-3-2 .box-3-2-text{
+.dash-container .box-33 .box-3-2 .box-3-2-text{
 display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 0 20px;
 }
-.container .box-3 .box-3-2 .box-3-2-text p{
+.dash-container .box-33 .box-3-2 .box-3-2-text p{
 color: #a09b9b;
 }
-.container .box-3 .box-3-2  p {
+.dash-container .box-33 .box-3-2  p {
 margin-top:-10px ;
 }
-.container .box-3 .box-3-2  p span{
+.dash-container .box-33 .box-3-2  p span{
 color: #a09b9b;
 padding: 0 20px;
 
 }
-.container .box-3 .box-3-2 .image-text{
+.dash-container .box-33 .box-3-2 .image-text{
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
-.container .box-3 .box-3-2 .image-text img{
+.dash-container .box-33 .box-3-2 .image-text img{
 width: 30px;
 height: 30px;
 padding:0px 0px 10px 20px;
 }
-.container .box-3 .box-3-2 .image-text p{
+.dash-container .box-33 .box-3-2 .image-text p{
 margin-left: -350px;
 margin-top: 10px;
 color: #a09b9b;
 }
-.container .box-3 .box-3-2 .image-text .btn{
+.dash-container .box-33 .box-3-2 .image-text .btn{
 width: 120px;
 height: 40px;
 padding: 10px;
@@ -575,7 +577,7 @@ border: none;
 text-align: center;
 margin:0 20px 10px 0 ;
 }
-.container .box-3 .box-3-2 .image-text .btn1{
+.dash-container .box-33 .box-3-2 .image-text .btn1{
 width: 120px;
 height: 40px;
 padding: 10px;
@@ -585,7 +587,7 @@ border: none;
 text-align: center;
 margin:0 20px 10px 0 ;
 }
-.container .box-4{
+.dash-container .box-44{
 width: 380px;
 margin: 0 10px;
 height: 285px;
@@ -598,14 +600,14 @@ padding: 2px;
 background: #fff9f9;
 
 }
-.container .box-5{
+.dash-container .box-55{
 width: 380px;
 margin: 0 10px;
 height: 250px;
 /* border: 1px solid yellow; */
 box-shadow: 2px 2px 10px 2px #d6d4d4;
 }
-.box-4 .underline{
+.box-44 .underline4{
 width: 210px;
 height: 8px;
 background: #E2E2E2;
@@ -615,7 +617,7 @@ margin-left:1050px;
 left: 0;
 overflow: hidden;
 }
-.box-4 .underline span{
+.box-44 .underline4 span{
 width: 170px;
 height: 8px;
 background: #82DFA7;
@@ -633,7 +635,7 @@ left: -160px;
 right: 75%;
 }
 }
-.underline2{
+.underline5{
 width: 210px;
 height: 8px;
 background: #E2E2E2;
@@ -643,7 +645,7 @@ margin-left: 1050px;
 left: 0;
 overflow: hidden;
 }
-.underline2 span{
+.underline5 span{
 width: 140px;
 height: 8px;
 background: #7879F1;
@@ -662,7 +664,7 @@ right: 55%;
 }
 }
 /* Progress bar 3 */
-.underline3{
+.underline6{
 width: 210px;
 height: 8px;
 background: #E2E2E2;
@@ -672,7 +674,7 @@ margin-left: 1050px;
 left: 0;
 overflow: hidden;
 }
-.underline3 span{
+.underline6 span{
 width: 100px;
 height: 8px;
 background: #FFF069;
@@ -706,16 +708,17 @@ display: flex;
 .box-4-text span{
 color: #4274FB;
 }
-.box-5 .c75{
+.box-55 .c78{
 border: 5px solid #FCE93F;
 height: 150px;
 width: 150px;
 border-radius: 50%;
 margin: auto auto 30px auto;
 }
-.box-5 .c75 p{
+.box-55 .c78 p{
 margin: 60px;
 }
+
   /* Choose Section  */
 
 .container {
@@ -725,7 +728,8 @@ margin: 60px;
     /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
-    margin:30px auto;
+    margin:90px auto;
+    margin-bottom: 30px;
 
 }
 
