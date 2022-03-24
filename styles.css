@@ -527,7 +527,7 @@ box-shadow: 2px 2px 10px 2px #d6d4d4;
 .dash-container .box-33 .box-3-2{
 margin: 0 10px;
 width: 630px;
-height: 130px;
+height: 140px;
 /* border: 1px solid black; */
 margin-bottom: 5px;
 box-shadow: 2px 2px 10px 2px #d6d4d4;
@@ -546,7 +546,7 @@ margin-top:-10px ;
 }
 .dash-container .box-33 .box-3-2  p span{
 color: #a09b9b;
-padding: 0 20px;
+margin-left: -10px;
 
 }
 .dash-container .box-33 .box-3-2 .image-text{
